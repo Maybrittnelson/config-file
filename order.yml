@@ -1,0 +1,4 @@
+#所有环境共同的配置项可以配置在这里
+PRODUCT:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
